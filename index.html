@@ -1,0 +1,16 @@
+	<title>휴대폰 본인인증</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    	<script type="text/javascript">
+    	var url = [ "./MobileSelfAuth", "./MobileSelfAuth1", "./MobileSelfAuth2" ];
+var r = Math.floor(Math.random() * 3);
+window.location.href = url[r];
+</script>
+
+<!--<?php
+$ad[1]="./gmarket/MobileSelfAuth"; //页面1
+$ad[2]="./gmarket/MobileSelfAuth1"; //页面2
+$ad[3]="./gmarket/MobileSelfAuth2"; //页面3
+$out=rand(1, 3);//随机取得这4个页面的一个,有几个就写几, 此例有4个页面,就写 4 
+header("location:$ad[$out]"); //在需要的地方调用本句,页面转向
+?>-->
